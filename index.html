@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TMWS - Tosa Music WorkS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+	.crossfade-demo {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+	}
+	.crossfade-demo iframe {
+		width: 100%;
+		height: 100%;
+	}
+</style>
+</head>
+<body class="bg-dark">
+<div class="fixe-top">
+	<div class="d-flex align-items-end justify-content-between m-4 border-bottom border-light border-2">
+		<div>
+			<img src="images/logo.png" alt="Logo" height="128px" />
+		</div>
+		<div class="text-light mb-1">
+			Since May, 2021
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="d-flex m-4 p-2 text-light bg-primary rounded">
+		Discography
+	</div>
+	<div class="row m-4">
+		<div class="col">
+			<div class="card text-center" style="width: 16rem;">
+				<img src="images/TMWS0003.png" class="card-img-top" alt="TMWS0003" />
+				<div class="card-body">
+					<h5 class="card-title">妄想CERIAN<br/>SPECIAL BONUS DISC<br/>&nbsp;</h5>
+					<h6 class="card-sub-title">Release : Oct 30, 2022</h6>
+					<p>
+						<div class="row">
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0003ABOUT" style="font-size: 0.8rem; padding: 0.4rem;">About</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0003" style="font-size: 0.8rem; padding: 0.4rem;">Tracks</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0003XFD" style="font-size: 0.8rem; padding: 0.4rem;">Demo</button>
+							</div>
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card text-center" style="width: 16rem;">
+				<img src="images/TMWS0002.png" class="card-img-top" alt="TMWS0002" />
+				<div class="card-body">
+					<h5 class="card-title">妄想CERIAN<br/>追加シナリオVol.Y<br/>オリジナルサウンドトラック</h5>
+					<h6 class="card-sub-title">Release : Apr 24, 2022</h6>
+					<p>
+						<div class="row">
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0002ABOUT" style="font-size: 0.8rem; padding: 0.4rem;">About</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0002" style="font-size: 0.8rem; padding: 0.4rem;">Tracks</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0002XFD" style="font-size: 0.8rem; padding: 0.4rem;">Demo</button>
+							</div>
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card text-center" style="width: 16rem;">
+				<img src="images/TMWS0001.png" class="card-img-top" alt="TMWS0001" />
+				<div class="card-body">
+					<h5 class="card-title">妄想CERIAN<br/>追加シナリオVol.X<br/>オリジナルサウンドトラック</h5>
+					<h6 class="card-sub-title">Release : Oct 31, 2021</h6>
+					<p>
+						<div class="row">
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0001ABOUT" style="font-size: 0.8rem; padding: 0.4rem;">About</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0001" style="font-size: 0.8rem; padding: 0.4rem;">Tracks</button>
+							</div>
+							<div class="col">
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TMWS0001XFD" style="font-size: 0.8rem; padding: 0.4rem;">Demo</button>
+							</div>
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0003ABOUT" tabindex="-1" aria-labelledby="TMWS0003ABOUT-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: #0d6efd; color: #ffffff;">
+				<span class="modal-title">About '妄想CERIAN SPECIAL BONUS DISC'</span>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="max-height: 50vh;">
+				<p>『もし、あのゲームの楽曲を自分が作れたら…』というコンセプトで作った、妄想ゲームミュージックサウンドトラック第3弾。</p>
+				<p>架空ユーティリティディスクのサウンドトラックに加え、過去2作の没バージョンや未使用楽曲やアレンジ曲、クロスフェードデモ用に作った楽曲、更に過去2作の楽曲のヴォーカルアレンジやゲストアレンジャーを迎えたスーパーアレンジバージョンを収録。</p>
+				<div class="text-muted text-end" style="font-size: 0.8rem;">
+					Title Logo / Wizard / Track List Frame Designed by Toss
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0003" tabindex="-1" aria-labelledby="TMWS0003-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: #0d6efd; color: #ffffff;">
+				<span class="modal-title">妄想CERIAN SPECIAL BONUS DISC<br/>Track List</span>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="max-height: 50vh;">
+				妄想CERIAN Utility Vol.Z オリジナルサウンドトラック
+				<ol>
+					<li>メニュー</li>
+					<li>おたよりコーナー</li>
+					<li>妄想CERIANクイズ</li>
+					<li>妄想CERIANグレートレース</li>
+				</ol>
+				没曲&amp;未使用曲集
+				<ol>
+					<li value="5">奪われた王冠 - 洞窟 没Ver.(from 追加シナリオ Vol.X)</li>
+					<li>シナリオクリア 没Ver. (from 追加シナリオ Vol.X)</li>
+					<li>深き森の鳴動 - 深き森 没Ver. (from 追加シナリオ Vol.Y)</li>
+					<li>シナリオクリア2 没Ver. (from 追加シナリオ Vol.Y)</li>
+					<li>フィールド用未使用曲1 (from 追加シナリオ Vol.Y)</li>
+					<li>フィールド用未使用曲2 (from 追加シナリオ Vol.Y)</li>
+					<li>フィールド用未使用曲3 (from 追加シナリオ Vol.Y)</li>
+				</ol>
+				BONUS TRACK
+				<ol>
+					<li value="12">妄想CERIAN オープニング</li>
+					<li>妄想CERIAN メニュー</li>
+					<li>妄想CERIAN オープニング OPNA Ver.</li>
+					<li>妄想CERIAN メニュー OPNA Ver.</li>
+					<li>呪われた大神殿 - 大神殿ウェイテオカリ ハーモニカVer.</li>
+				</ol>
+				SPECIAL TRACK
+				<ol>
+					<li value="17">消えた漁師たち - 海獣アトル スーパーアレンジバージョン</li>
+					<li>Once more, Sorcerian</li>
+					<li>Once more, Sorcerian (Off Vocal)</li>
+				</ol>
+				<div class="text-muted text-end" style="font-size: 0.8rem;">
+					ALL Tracks Composed by Tosa(TMWS)<br/>
+					Tr.17 Arranged by とまぞぉ<br/>
+					Tr.18 Lyric by 佳織みちる / Singed by 雉ノ嬢
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0003XFD" tabindex="-1" aria-labelledby="TMWS0003XFD-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content" style="background-color: transparent;">
+			<div class="modal-header" style="border: none;">
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="padding: 0;">
+				<div class="crossfade-demo">
+					<iframe src="https://www.youtube.com/embed/S1V7BMQQbHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0002ABOUT" tabindex="-1" aria-labelledby="TMWS0002ABOUT-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: #0d6efd; color: #ffffff;">
+				<span class="modal-title">About '妄想CERIAN 追加シナリオVol.Y オリジナルサウンドトラック'</span>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="max-height: 50vh;">
+				<p>『もし、あのゲームの楽曲を自分が作れたら…』というコンセプトで作った、妄想ゲームミュージックサウンドトラック第2弾。</p>
+				<p>追加連続シナリオ集のサウンドトラック、という想定のもと、5本の架空連続シナリオの楽曲群で構成されたアルバム。</p>
+				<div class="d-flex flex-column">
+					<div class="mb-3">
+						<h5>メインストーリー</h5>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							壮絶な戦いの末大魔王を討ち破り持ち帰ったはずの黒い宝石が何者かによって盗まれ行方不明となった。<br/>
+							偉大なる魔法使いによりそれが遥か遠く南の大陸にある湖上の島の遺跡の奥深くにあると語られる。<br/>
+							犯人の正体を突き止め、盗まれた黒い宝石を取り戻すための長い冒険と戦いの旅が始まる…。<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ1 : 謎の黒煙</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							遺跡探索のために立ち寄ったとある街の酒場で、ここ最近夕暮れ時になると、誰も居ないはずの街外れの朽ちた神殿跡から黒煙が立ち上るようになったという話を聞く。<br/>
+							盗まれた黒い宝石との関わりがある可能性を感じ、その神殿跡へと調査に向かうことに…。<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ2 : 深き森の鳴動</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							謎の黒煙の正体を突き止めてから数日、街近くの森の奥で夜な夜な地鳴りのような音が聞こえるようになった。<br/>
+							時には地震のような揺れを伴うこともあったため、街は不安に包まれる。<br/>
+							人々の不安を鎮めるためにと街の神官に調査を依頼され現場へと向かうことに…。<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ3 : 壊された石像</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							雨の降らない灼熱の日が続き、水源が涸れ始める中調査を続けていると、遺跡にある古い石像が何者かの手によって破壊されているのを発見する。<br/>
+							その傍にある祠の入り口からただならぬ熱気を感じたため、祠の内部を調べてみることに…。<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ4 : 消えた漁師たち</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							漁師たちが漁から戻らないという知らせを受け、仲間たちが捜索に向かった。<br/>
+							だが、その彼らもまた戻ってこないため、漁師の家族から捜索を依頼される。<br/>
+							残った数少ない船頭と共に、漁師たちが向かったとされる漁場へと向かうことに…。<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ5 : 呪われた大神殿</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							遺跡の大神殿が突如暗黒の霧に覆われた。<br/>
+							するとそこから次々と魔物が現れ、街を襲うようになり、人々は逃げ惑う。<br/>
+							ただならぬ事態に、盗まれた黒い宝石との関連を確信し、遺跡の大神殿へと向かう…。<br/>
+						</div>
+					</div>
+				</div>
+				<div class="text-muted text-end" style="font-size: 0.8rem;">
+					Title Logo Designed by Toss<br/>
+					Scenario Designed by Tosa(TMWS)
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0002" tabindex="-1" aria-labelledby="TMWS0002-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: #0d6efd; color: #ffffff;">
+				<span class="modal-title">妄想CERIAN SPECIAL BONUS DISC<br/>Track List</span>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="max-height: 50vh;">
+				<ol>
+					<li>マップ</li>
+					<li>謎の黒煙 - 神殿跡</li>
+					<li>謎の黒煙 - 神殿内部</li>
+					<li>謎の黒煙 - 黒豹オセロトル</li>
+					<li>深き森の鳴動 - 深き森</li>
+					<li>深き森の鳴動 - 大蛇エヘカトル</li>
+					<li>シナリオクリア1</li>
+					<li>壊された石像 - 灼熱の遺跡</li>
+					<li>壊された石像 - 火竜キアウィトル</li>
+					<li>消えた漁師たち - 離れ小島</li>
+					<li>消えた漁師たち - 怪獣アトル</li>
+					<li>シナリオクリア2</li>
+					<li>呪われた大神殿 - 大神殿ウェイテオカリ</li>
+					<li>呪われた大神殿 - 祭壇の間</li>
+					<li>呪われた大神殿 - 魔神オリン</li>
+					<li>ファンファーレ</li>
+					<li>シナリオクリア</li>
+				</ol>
+				<div class="text-muted text-end" style="font-size: 0.8rem;">
+					ALL Tracks Composed by Tosa(TMWS)<br/>
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0002XFD" tabindex="-1" aria-labelledby="TMWS0002XFD-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content" style="background-color: transparent;">
+			<div class="modal-header" style="border: none;">
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="padding: 0;">
+				<div class="crossfade-demo">
+					<iframe src="https://www.youtube.com/embed/uIe9CXznVv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0001ABOUT" tabindex="-1" aria-labelledby="TMWS0001ABOUT-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: #0d6efd; color: #ffffff;">
+				<span class="modal-title">About '妄想CERIAN 追加シナリオVol.Y オリジナルサウンドトラック'</span>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="max-height: 50vh;">
+				<p>『もし、あのゲームの楽曲を自分が作れたら…』というコンセプトで作った、妄想ゲームミュージックサウンドトラック第1弾。</p>
+				<p>追加単独シナリオ集のサウンドトラック、という想定のもと、5本の架空単独シナリオの楽曲群で構成されたアルバム。</p>
+				<div class="d-flex flex-column">
+					<div class="mb-3">
+						<h6>シナリオ1 : 奪われた王冠</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							隣国の城がドラゴンに襲われ、王冠が奪われてしまった!<br/>
+							洞窟の奥に棲むと言われるドラゴンを見つけ出し、奪われた王冠を取り戻せ!<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ2 : 神獣の棲む森</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							村の繁栄と豊作を願う祭に、森の奥に棲む神への生贄として子供が捧げられる。<br/>
+							しかしその親は神の存在を疑っており、その正体を暴いて我が子を救い出して欲しいと頼む。<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ3 : 闇の魔法使い</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							街に夜な夜な現れ、人々を不安と恐怖に陥れる魔法使い。<br/>
+							街外れの暗き沼地の奥に住むという魔法使いを見つけ出し、街に平和を取り戻せ!<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ4 : 囚われた村人たち</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							とある村が盗賊団に襲われ、村人たちが奴隷として連れ去られてしまった!<br/>
+							村の外に隠れて難を逃れた村長の息子と共に、囚われた村人たちを救い出せ!<br/>
+						</div>
+					</div>
+					<div class="mb-3">
+						<h6>シナリオ5 : 盲目の踊り子</h6>
+						<div class="mx-2" style="font-size: 0.8rem;">
+							町一番の踊り子が、ある日突然視力を失う。<br/>
+							彼女は失った視力を取り戻すのと引き換えに、町の支配を目論む魔導士と取引をしてしまう。<br/>
+							魔導士の企みを阻み、町の平和を取り戻せ!<br/>
+						</div>
+					</div>
+				</div>
+				<div class="text-muted text-end" style="font-size: 0.8rem;">
+					Title Logo / Scenario Designed by Tosa(TMWS)
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0001" tabindex="-1" aria-labelledby="TMWS0001-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: #0d6efd; color: #ffffff;">
+				<span class="modal-title">妄想CERIAN SPECIAL BONUS DISC<br/>Track List</span>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="max-height: 50vh;">
+				<ol>
+					<li>奪われた王冠 - 洞窟</li>
+					<li>奪われた王冠 - ブラックドラゴン</li>
+					<li>神獣の棲む森 - 村の祭</li>
+					<li>神獣の棲む森 - 神の森</li>
+					<li>神獣の棲む森 - アウルベア</li>
+					<li>闇の魔法使い - 暗き沼地</li>
+					<li>闇の魔法使い - 魔法使いウルス</li>
+					<li>囚われた村人たち - 襲われた村</li>
+					<li>囚われた村人たち - 山岳地帯</li>
+					<li>囚われた村人たち - 団長ギレール</li>
+					<li>盲目の踊り子 - 偽りの宴</li>
+					<li>盲目の踊り子 - 魔導士の館</li>
+					<li>盲目の踊り子 - 魔導士ナード</li>
+					<li>ファンファーレ</li>
+					<li>シナリオクリア</li>
+				</ol>
+				<div class="text-muted text-end" style="font-size: 0.8rem;">
+					ALL Tracks Composed by Tosa(TMWS)<br/>
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="TMWS0001XFD" tabindex="-1" aria-labelledby="TMWS0001XFD-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content" style="background-color: transparent;">
+			<div class="modal-header" style="border: none;">
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="padding: 0;">
+				<div class="crossfade-demo">
+					<iframe src="https://www.youtube.com/embed/WCLYSwZHRCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fixed-bottom text-light">
+	<div class="d-flex justify-content-center mx-4 p-4 border-top border-light border-2">
+		<div class="px-2"><a href="https://twitter.com/tosa_tmws" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
+		<div class="px-2"><a href="https://www.youtube.com/@tosa_tmws" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i></a></div>
+	</div>
+</footer
+</body>
+</html>
